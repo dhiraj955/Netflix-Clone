@@ -323,4 +323,11 @@ select {
   .hero {
     margin-top: 150px;
   }
+  .card  {
+    background-color: red;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px; /* Adjust as needed */
+    transition: transform 0.3s ease-in;
+  }
 }
