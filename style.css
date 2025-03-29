@@ -238,7 +238,7 @@ select {
   align-items: center;
 }
 
-/* Laptop responsive */
+/* Tab responsive */
 @media only screen and (min-width: 992px) {
   .secon-section {
     display: grid;
@@ -269,6 +269,8 @@ select {
   }
 }
 
+
+/* Laptop Responsive */
 @media only screen and (min-width: 1200px) {
   nav > img {
     color: red;
