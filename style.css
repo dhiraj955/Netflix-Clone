@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+* {
+  font-family: poppins;
+}
+.container {
+  margin: auto;
+}
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/netflix-B.jpeg");
+  /* opacity: 0.8; */
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+nav {
+  width: 85%;
+  margin: auto;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+nav > img {
+  color: red;
+  height: 2.5rem;
+  width: 110px;
+}
+nav > button {
+  width: 90px;
+  height: 35px;
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.btn {
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 90px;
+}
+.responsive {
+  display: none;
+}
+.hero p {
+  margin-top: -10px;
+  line-height: 30px;
+}
+.start {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.input input,
+button {
+  height: 3.8rem;
+  border-radius: 5px;
+}
+.input input {
+  width: 20rem;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 1px solid rgb(127, 124, 124);
+  font-size: 1rem;
+  padding: 0 20px;
+}
+.input button {
+  width: 12rem;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: 0;
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.section {
+  width: 85%;
+  margin: auto;
+}
+.heading {
+  font-size: 1.2rem;
+  margin-top: 70px;
+}
+.card ul {
+  display: flex;
+  gap: 20px;
+}
+.card li {
+  flex-direction: row;
+  list-style: none;
+}
+.card li img {
+  height: 140px;
+  width: 110px;
+  border-radius: 10px; /* Adjust as needed */
+  transition: transform 0.3s ease-in;
+}
+.card li img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* more reason to join section*/
+.enjoy {
+  background: linear-gradient(135deg, #101a40 0%, #31191e 100%);
+  height: 150px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.enjoy span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.enjoy p {
+  color: rgb(210, 208, 208);
+  font-family: sans-serif;
+}
+
+.more-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.frequent {
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  font-size: 1.2rem;
+  height: 40px;
+}
+.frequent i {
+  font-size: 1.8rem;
+}
+
+.footer {
+  margin-top: 40px;
+}
+.anchor a {
+  font-family: sans-serif;
+  color: rgb(213, 210, 210);
+}
+.footer-list {
+  margin-left: -40px;
+  margin-bottom: 0;
+  line-height: 35px;
+}
+.list {
+  margin-top: -18px;
+}
+.footer-list li {
+  list-style: none;
+
+  justify-content: flex-start;
+}
+.footer-list li a {
+  color: rgb(213, 210, 210);
+}
+.selects {
+  height: 30px;
+  width: 140px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.selects i {
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  height: 30px;
+  width: 110px;
+  border-radius: 5px;
+}
+
+.paragraph {
+  color: gray;
+  margin: 25px 0;
+}
+.btn-red {
+  width: 85vw;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: red;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Laptop responsive */
+@media only screen and (min-width: 992px) {
+  .secon-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  /* .hero h1 br{
+        display: none;
+    } */
+  .enjoy {
+    margin-bottom: -1px;
+  }
+  .input {
+    margin-top: -20px;
+  }
+  .btn-red {
+    display: none;
+  }
+  .para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-list ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  nav > img {
+    color: red;
+    height: 70px;
+    width: 150px;
+  }
+  .hero h1 {
+    margin-top: -10px;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .paragraph-second br {
+    display: none;
+  }
+
+  .secon-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .enjoy {
+    height: 250px;
+    width: 290px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .para p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .input input {
+    font-weight: 400;
+    width: 660px;
+  }
+  .btn-red {
+    display: none;
+  }
+  .footer-list ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .input input {
+    width: 400px;
+  }
+  .hero {
+    margin-top: 150px;
+  }
+}
