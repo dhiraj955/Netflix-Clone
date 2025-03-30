@@ -39,7 +39,7 @@ nav {
 }
 nav > img {
   color: red;
-  height: 2.5rem;
+  height: 40px;
   width: 110px;
 }
 nav > button {
@@ -86,11 +86,10 @@ nav > button {
 }
 .input input,
 button {
-  height: 3.8rem;
+  height: 70px;
   border-radius: 5px;
 }
 .input input {
-  width: 20rem;
   background-color: transparent;
   color: white;
   font-weight: bold;
@@ -99,15 +98,14 @@ button {
   padding: 0 20px;
 }
 .input button {
-  width: 12rem;
+  width: 192px;
   background-color: red;
   color: white;
   font-weight: bold;
   font-size: 1.3rem;
   border: 0;
   padding: 15px;
-  margin-top: 15px;
-  margin-left: 10px;
+  margin-top: 15px
 }
 .section {
   width: 85%;
